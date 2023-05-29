@@ -43,8 +43,8 @@ export default function App() {
     <section className='h-screen w-full ' style={{ backgroundColor: '#0a0911' }}>
       <div className='flex'>
         <div className='w-1/2 items-center'>
-          <h className='text-white font-bold text-4xl justify-center pt-8'>TRANSFORM YOUR
-          FITNESS AND YOUR LIFE</h>
+          <p className='text-white font-bold text-4xl justify-center pt-8'>TRANSFORM YOUR
+          FITNESS AND YOUR LIFE</p>
         </div>
         <div className='w-1/2'>
           <img src={fit}/>
