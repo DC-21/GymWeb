@@ -5,28 +5,35 @@ import './App.css'
 
 export default function App() {
   return (
-    <div style={{ backgroundColor: '#0a0911' }} className="flex w-full h-screen justify-between">
-      <div>Logo</div>
+    <div style={{ backgroundColor: '#0a0911' }} className="flex w-full py-4 justify-between p-5">
+      <div className='text-white'>Logo</div>
       <div>
-        <ul>
-          <li>
+        <ul className='flex gap-5'>
+          <li className='text-white'>
             <a>Home</a>
           </li>
-          <li>
+          <li className='text-white'>
             <a>About</a>
           </li>
-          <li>
+          <li className='text-white'>
             <a>Classes</a>
           </li>
-          <li>
+          <li className='text-white'>
             <a>Plans</a>
           </li>
-          <li>
+          <li className='text-white'>
             <a>Contact</a>
           </li>
         </ul>
       </div>
-      <div></div>
+      <div className='flex gap-4'>
+        <button className='text-white'>
+          <a href=''>Login</a>
+        </button>
+        <button className='text-white'>
+          <a href=''>Sign Up</a>
+        </button>
+      </div>
     </div>
   )
 }
