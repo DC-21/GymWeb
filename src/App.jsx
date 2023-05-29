@@ -30,7 +30,7 @@ export default function App() {
         <button className='text-white'>
           <a href=''>Login</a>
         </button>
-        <button className='text-white ' style={{backgroundColor: '#f74700'}}>
+        <button className='text-white rounded py-2 px-4' style={{backgroundColor: '#f74700'}}>
           <a href=''>Sign Up</a>
         </button>
       </div>
