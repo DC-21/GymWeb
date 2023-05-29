@@ -39,6 +39,12 @@ export default function App() {
         </button>
       </div>
     </div>
+    <section>
+      <div>
+        <div></div>
+        <div></div>
+      </div>
+    </section>
     </div>
   )
 }
