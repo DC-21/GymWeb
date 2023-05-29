@@ -11,7 +11,7 @@ export default function App() {
         <img className='w-10 h-10' src={logo}/>
       </div>
       <div>
-        <ul className='flex gap-5'>
+        <ul className='flex gap-5 pt-3'>
           <li className='text-white'>
             <a>Home</a>
           </li>
