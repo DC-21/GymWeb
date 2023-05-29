@@ -39,7 +39,7 @@ export default function App() {
         </button>
       </div>
     </div>
-    <section>
+    <section className='h-screen w-full ' style={{ backgroundColor: '#0a0911' }}>
       <div>
         <div></div>
         <div></div>
