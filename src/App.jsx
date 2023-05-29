@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import logo from './logo.png'
+import fit from './fit.jpg'
 import './App.css'
 
 export default function App() {
@@ -46,7 +47,7 @@ export default function App() {
           FITNESS AND YOUR LIFE</h>
         </div>
         <div className='w-1/2'>
-          <img/>
+          <img src={fit}/>
         </div>
       </div>
     </section>
