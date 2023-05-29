@@ -6,7 +6,8 @@ import './App.css'
 
 export default function App() {
   return (
-    <div style={{ backgroundColor: '#0a0911' }} className="flex w-full py-4 justify-between p-5">
+    <div> 
+      <div style={{ backgroundColor: '#0a0911' }} className="flex w-full py-4 justify-between p-5">
       <div className='text-white'>
         <img className='w-10 h-10' src={logo}/>
       </div>
@@ -37,6 +38,7 @@ export default function App() {
           <a href=''>Sign Up</a>
         </button>
       </div>
+    </div>
     </div>
   )
 }
