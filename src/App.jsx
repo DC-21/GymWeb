@@ -40,9 +40,13 @@ export default function App() {
       </div>
     </div>
     <section className='h-screen w-full ' style={{ backgroundColor: '#0a0911' }}>
-      <div>
-        <div></div>
-        <div></div>
+      <div className='flex'>
+        <div className='w-1/2'>
+          <h></h>
+        </div>
+        <div className='w-1/2'>
+          <img/>
+        </div>
       </div>
     </section>
     </div>
