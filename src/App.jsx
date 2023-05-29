@@ -42,7 +42,8 @@ export default function App() {
     <section className='h-screen w-full ' style={{ backgroundColor: '#0a0911' }}>
       <div className='flex'>
         <div className='w-1/2'>
-          <h></h>
+          <h className='text-white'>TRANSFORM YOUR
+          FITNESS AND YOUR LIFE</h>
         </div>
         <div className='w-1/2'>
           <img/>
