@@ -46,8 +46,8 @@ export default function App() {
           <p className='text-white font-bold text-4xl justify-center pt-8'>TRANSFORM YOUR
           FITNESS AND YOUR LIFE</p>
         </div>
-        <div className='w-1/2'>
-          <img src={fit}/>
+        <div className='w-1/2 items-center'>
+          <img  className='rounded items-center px-6 py-15 mt-10' src={fit}/>
         </div>
       </div>
     </section>
