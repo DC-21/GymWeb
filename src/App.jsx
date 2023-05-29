@@ -1,12 +1,15 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import logo from './logo.png'
 import './App.css'
 
 export default function App() {
   return (
     <div style={{ backgroundColor: '#0a0911' }} className="flex w-full py-4 justify-between p-5">
-      <div className='text-white'>Logo</div>
+      <div className='text-white'>
+        <img className='w-10 h-10' src={logo}/>
+      </div>
       <div>
         <ul className='flex gap-5'>
           <li className='text-white'>
