@@ -44,6 +44,12 @@ export default function App() {
         <div className='w-1/2 items-center px-10 relative'>
           <p className='text-white font-bold text-5xl text-left pt-20 justify-center px-12'>Transform Your<br/>
           Fitness And Build<br/> Your Life</p>
+        <button className='text-white'>
+          <a href=''>Login</a>
+        </button>
+        <button className='text-white rounded py-2 px-4' style={{backgroundColor: '#f74700'}}>
+          <a href=''>Sign Up</a>
+        </button>
         </div>
         <div className='w-1/2 items-center'>
           <img  className='items-center px-6  mt-10 rounded-sm' src={fit}/>
