@@ -44,12 +44,12 @@ export default function App() {
         <div className='w-1/2 items-center px-10 relative'>
           <p className='text-white font-bold text-5xl text-left pt-20 justify-center px-12'>Transform Your<br/>
           Fitness And Build<br/> Your Life</p>
-          <div>
+          <div className="">
           <button className='text-white'>
-          <a href=''>Login</a>
+          <a href=''>Book Class</a>
         </button>
         <button className='text-white rounded py-2 px-4' style={{backgroundColor: '#f74700'}}>
-          <a href=''>Sign Up</a>
+          <a href=''>Free Online Class</a>
         </button>
           </div>
         </div>
