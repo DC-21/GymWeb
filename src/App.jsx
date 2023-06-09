@@ -49,11 +49,11 @@ export default function App() {
               Lorem ipsum test tha txt before take a seat and remember to free all time coz you dove acquired what made ya work all life
             </p>
           </div>
-          <div className='text-white text-l text-left pt-4 px-12 justify-between flex gap-4'>
-          <button className='text-white'>
+          <div className='text-white text-l text-left py-2 px-12 justify-between flex gap-4'>
+          <button className='text-white rounded py-2 px-12' style={{backgroundColor: '#f74700'}}>
           <a href=''>Book Class</a>
         </button>
-        <button className='text-white rounded py-2 px-4' style={{backgroundColor: '#f74700'}}>
+        <button className='text-right text-white rounded py-2 px-12' style={{backgroundColor: '#26272e'}}>
           <a href=''>Free Online Class</a>
         </button>
           </div>
