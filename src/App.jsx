@@ -13,7 +13,7 @@ export default function App() {
       </div>
       <div>
         <ul className='flex gap-5 pt-3'>
-          <li className='text-white'>
+          <li className='text-white '>
             <a>Home</a>
           </li>
           <li className='text-white'>
