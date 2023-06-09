@@ -87,20 +87,29 @@ export default function App() {
     </section>
     <section>
       <div>
-        <div></div>
+        <div className="pt-20">
+          <h1 className="text-4xl font-bold">Your Fitness Classes</h1>
+          <p className="pt-4">I found this on the web trynna catch what i solved <br/>
+          Errytime they see me balling</p>
+        </div>
         <div>
-          <ul>
+          <ul className="flex">
             <li>
-              <img/>
+            <img  className='items-center px-6  mt-10 rounded' src={fit}/>
             </li>
             <li>
-              <img/>
+            <img  className='items-center px-6  mt-10 rounded h-50' src={fit}/>
             </li>
             <li>
-              <img/>
+            <img  className='items-center px-6  mt-10 rounded h-50' src={fit}/>
             </li>
           </ul>
         </div>
+        <div className='text-white text-l text-left py-2 px-12 pt-20 flex gap-4 justify-center items-center'>
+          <button className='text-white rounded py-3 px-20 j' style={{backgroundColor: '#111111'}}>
+          <a href=''>See All Classes</a>
+        </button>
+          </div>
       </div>
     </section>
     </div>
