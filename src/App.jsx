@@ -57,6 +57,28 @@ export default function App() {
           <a href=''>Free Online Class</a>
         </button>
           </div>
+          <div>
+            <ul>
+              <li>
+                <a href=''>mapbox</a>
+              </li>
+              <li>
+                <a href=''>mparticle</a>
+              </li>
+              <li>
+                <a href=''></a>
+              </li>
+              <li>
+                <a href=''>videodesk</a>
+              </li>
+              <li>
+                <a href=''>outlineWhimsical</a>
+              </li>
+              <li>
+                <a href=''></a>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className='w-1/2 items-center'>
           <img  className='items-center px-6  mt-10 rounded' src={fit}/>
