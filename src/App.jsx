@@ -43,7 +43,7 @@ export default function App() {
       <div className='flex'>
         <div className='w-1/2 items-center px-10 relative'>
           <p className='text-white font-bold text-4xl text-left pt-20 justify-center px-12'>TRANSFORM YOUR
-          FITNESS AND YOUR LIFE</p>
+          FITNESS AND Build YOUR LIFE</p>
         </div>
         <div className='w-1/2 items-center'>
           <img  className='items-center px-6  mt-10' src={fit}/>
