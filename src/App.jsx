@@ -39,10 +39,10 @@ export default function App() {
         </button>
       </div>
     </div>
-    <section className='h-screen w-full ' style={{ backgroundColor: '#0a0911' }}>
+    <section className='h-screen w-full pt-16' style={{ backgroundColor: '#0a0911' }}>
       <div className='flex'>
         <div className='w-1/2 items-center px-10 relative'>
-          <p className='text-white font-bold text-4xl justify-center px-12'>TRANSFORM YOUR
+          <p className='text-white font-bold text-4xl text-left pt-20 justify-center px-12'>TRANSFORM YOUR
           FITNESS AND YOUR LIFE</p>
         </div>
         <div className='w-1/2 items-center'>
