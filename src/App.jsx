@@ -57,8 +57,13 @@ export default function App() {
           <a href=''>Free Online Class</a>
         </button>
           </div>
-          <div>
-            <ul>
+        </div>
+        <div className='w-1/2 items-center'>
+          <img  className='items-center px-6  mt-10 rounded' src={fit}/>
+        </div>
+      </div>
+      <div>
+            <ul className="flex justify-between text-white pt-6">
               <li>
                 <a href=''>mapbox</a>
               </li>
@@ -79,11 +84,6 @@ export default function App() {
               </li>
             </ul>
           </div>
-        </div>
-        <div className='w-1/2 items-center'>
-          <img  className='items-center px-6  mt-10 rounded' src={fit}/>
-        </div>
-      </div>
     </section>
     </div>
   )
