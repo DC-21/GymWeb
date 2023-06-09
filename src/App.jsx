@@ -63,7 +63,7 @@ export default function App() {
         </div>
       </div>
       <div>
-            <ul className="flex justify-between text-white pt-6">
+            <ul className="flex justify-between text-white pt-6 px-16">
               <li>
                 <a href=''>mapbox</a>
               </li>
@@ -71,7 +71,7 @@ export default function App() {
                 <a href=''>mparticle</a>
               </li>
               <li>
-                <a href=''></a>
+                <a href=''>Eclipse</a>
               </li>
               <li>
                 <a href=''>videodesk</a>
@@ -80,7 +80,7 @@ export default function App() {
                 <a href=''>outlineWhimsical</a>
               </li>
               <li>
-                <a href=''></a>
+                <a href=''>Memes</a>
               </li>
             </ul>
           </div>
