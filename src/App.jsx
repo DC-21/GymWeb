@@ -42,8 +42,13 @@ export default function App() {
     <section className='h-screen w-full pt-16' style={{ backgroundColor: '#0a0911' }}>
       <div className='flex'>
         <div className='w-1/2 items-center px-10 relative'>
-          <p className='text-white font-bold text-5xl text-left pt-20 justify-center px-12'>Transform Your<br/>
-          Fitness And Build<br/> Your Life</p>
+          <h1 className='text-white font-bold text-5xl text-left pt-20 justify-center px-12'>Transform Your<br/>
+          Fitness And Build<br/> Your Life</h1>
+          <div className='text-white text-l text-left pt-4 justify-center px-12'>
+            <p>
+              Lorem ipsum test tha txt before take a seat and remember to free all time coz you dove acquired what made ya work all life
+            </p>
+          </div>
           <div className="">
           <button className='text-white'>
           <a href=''>Book Class</a>
