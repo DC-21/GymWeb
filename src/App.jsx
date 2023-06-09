@@ -12,7 +12,7 @@ export default function App() {
         <img className='w-10 h-10' src={logo}/>
       </div>
       <div>
-        <ul className='flex gap-5 pt-3'>
+        <ul className='flex gap-5 pt-3 cursor-pointer'>
           <li className='text-white hover:bg-orange-700 rounded-md px-2 py-1'>
             <a>Home</a>
           </li>
@@ -39,7 +39,7 @@ export default function App() {
         </button>
       </div>
     </div>
-    <section className='h-screen w-full pt-16' style={{ backgroundColor: '#0a0911' }}>
+    <section className='h-screen w-full pt-10' style={{ backgroundColor: '#0a0911' }}>
       <div className='flex'>
         <div className='w-1/2 items-center px-10 relative'>
           <h1 className='text-white font-bold text-5xl text-left pt-20 justify-center px-12'>Transform Your<br/>
@@ -49,7 +49,7 @@ export default function App() {
               Lorem ipsum test tha txt before take a seat and remember to free all time coz you dove acquired what made ya work all life
             </p>
           </div>
-          <div className="">
+          <div className='text-white text-l text-left pt-4 px-12 justify-between flex gap-4'>
           <button className='text-white'>
           <a href=''>Book Class</a>
         </button>
@@ -59,7 +59,7 @@ export default function App() {
           </div>
         </div>
         <div className='w-1/2 items-center'>
-          <img  className='items-center px-6  mt-10 rounded-sm' src={fit}/>
+          <img  className='items-center px-6  mt-10 rounded' src={fit}/>
         </div>
       </div>
     </section>
