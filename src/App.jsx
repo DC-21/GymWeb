@@ -85,7 +85,7 @@ export default function App() {
             </ul>
           </div>
     </section>
-    <section>
+    <section className="h-screen w-full">
       <div>
         <div className="pt-20">
           <h1 className="text-4xl font-bold">Your Fitness Classes</h1>
