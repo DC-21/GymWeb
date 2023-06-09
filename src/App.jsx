@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import logo from './logo.png'
 import fit from './fit.jpg'
 import './App.css'
@@ -42,12 +41,12 @@ export default function App() {
     </div>
     <section className='h-screen w-full ' style={{ backgroundColor: '#0a0911' }}>
       <div className='flex'>
-        <div className='w-1/2 items-center'>
-          <p className='text-white font-bold text-4xl justify-center pt-8'>TRANSFORM YOUR
+        <div className='w-1/2 items-center px-10 relative'>
+          <p className='text-white font-bold text-4xl justify-center px-12'>TRANSFORM YOUR
           FITNESS AND YOUR LIFE</p>
         </div>
         <div className='w-1/2 items-center'>
-          <img  className='rounded items-center px-6 py-15 mt-10' src={fit}/>
+          <img  className='items-center px-6  mt-10' src={fit}/>
         </div>
       </div>
     </section>
