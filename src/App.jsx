@@ -63,7 +63,7 @@ export default function App() {
         </div>
       </div>
       <div>
-            <ul className="flex justify-between text-white pt-20 py-20   px-16">
+            <ul className="flex justify-between text-white pt-20 py-20     px-16">
               <li>
                 <a href='' className='text-white rounded py-2 px-4' style={{backgroundColor: '#26272e'}}>mapbox</a>
               </li>
@@ -84,6 +84,24 @@ export default function App() {
               </li>
             </ul>
           </div>
+    </section>
+    <section>
+      <div>
+        <div></div>
+        <div>
+          <ul>
+            <li>
+              <img/>
+            </li>
+            <li>
+              <img/>
+            </li>
+            <li>
+              <img/>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
     </div>
   )
