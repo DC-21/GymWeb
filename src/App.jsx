@@ -13,19 +13,19 @@ export default function App() {
       </div>
       <div>
         <ul className='flex gap-5 pt-3'>
-          <li className='text-white '>
+          <li className='text-white hover:bg-orange-700 rounded-md px-2 py-1'>
             <a>Home</a>
           </li>
-          <li className='text-white'>
+          <li className='text-white hover:bg-orange-700 rounded-md px-2 py-1'>
             <a>About</a>
           </li>
-          <li className='text-white'>
+          <li className='text-white hover:bg-orange-700 rounded-md px-2 py-1'>
             <a>Classes</a>
           </li>
-          <li className='text-white'>
+          <li className='text-white hover:bg-orange-700 rounded-md px-2 py-1'>
             <a>Plans</a>
           </li>
-          <li className='text-white'>
+          <li className='text-white hover:bg-orange-700 rounded-md px-2 py-1'>
             <a>Contact</a>
           </li>
         </ul>
