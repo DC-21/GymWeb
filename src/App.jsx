@@ -58,29 +58,29 @@ export default function App() {
         </button>
           </div>
         </div>
-        <div className='w-1/2 items-center'>
-          <img  className='items-center px-6  mt-10 rounded' src={fit}/>
+        <div className='w-1/2 items-center px-10 relative rounded-md'>
+          <img  className='items-center px-6  mt-10 rounded h-50' src={fit}/>
         </div>
       </div>
       <div>
-            <ul className="flex justify-between text-white pt-6 px-16">
+            <ul className="flex justify-between text-white pt-20 py-20   px-16">
               <li>
-                <a href=''>mapbox</a>
+                <a href='' className='text-white rounded py-2 px-4' style={{backgroundColor: '#26272e'}}>mapbox</a>
               </li>
               <li>
-                <a href=''>mparticle</a>
+                <a href=''className='text-white rounded py-2 px-4' style={{backgroundColor: '#26272e'}}>mparticle</a>
               </li>
               <li>
-                <a href=''>Eclipse</a>
+                <a href='' className='text-white rounded py-2 px-4' style={{backgroundColor: '#26272e'}}>Eclipse</a>
               </li>
               <li>
-                <a href=''>videodesk</a>
+                <a href='' className='text-white rounded py-2 px-4' style={{backgroundColor: '#26272e'}}>videodesk</a>
               </li>
               <li>
-                <a href=''>outlineWhimsical</a>
+                <a href='' className='text-white rounded py-2 px-4' style={{backgroundColor: '#26272e'}}>outlineWhimsical</a>
               </li>
               <li>
-                <a href=''>Memes</a>
+                <a href='' className='text-white rounded py-2 px-4' style={{backgroundColor: '#26272e'}}>Memes</a>
               </li>
             </ul>
           </div>
