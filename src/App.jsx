@@ -59,7 +59,7 @@ export default function App() {
           </div>
         </div>
         <div className='w-1/2 items-center px-10 relative rounded-md'>
-  <img className='items-center px-6 mt-10 rounded h-50' src={fit} style={{ borderRadius: '50%' }} />
+  <img className='items-center px-6 mt-10 rounded h-50' src={fit} style={{ borderRadius: '5%' }} />
 </div>
 
       </div>
