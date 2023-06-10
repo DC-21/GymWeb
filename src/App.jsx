@@ -61,8 +61,8 @@ export default function App() {
         <div className='w-1/2 items-center px-10 relative'>
   <div className='relative'>
     <img className='items-center px-6 mt-10 rounded-md h-50' src={fit} alt='Fitness' />
-    <div className='absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center'>
-      <span className='text-white text-2xl font-bold'>Sample Text</span>
+    <div className='absolute left-0 bottom-0 flex items-center justify-center'>
+      <span className='text-blue-800 text-2xl font-bold'>Sample Text</span>
     </div>
   </div>
 </div>
