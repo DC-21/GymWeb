@@ -58,10 +58,9 @@ export default function App() {
         </button>
           </div>
         </div>
-        <div className='w-1/2 items-center px-10 relative'>
-  <img className='items-center px-6 mt-10 rounded-md h-50' src={fit} />
+        <div className='w-1/2 items-center px-10 relative rounded-md'>
+  <img className='items-center px-6 mt-10 h-50' src={fit} style={{ borderRadius: '6%' }} />
 </div>
-
 
 
       </div>
