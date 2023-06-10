@@ -61,12 +61,13 @@ export default function App() {
         <div className='w-1/2 items-center px-10 relative'>
   <div className='relative'>
     <img className='items-center px-6 mt-10 rounded-md h-50' src={fit} alt='Fitness' />
-    <div className='absolute bottom-4 left-8 p-2 bg-white'>
+    <div className='absolute bottom-4 left-10 p-2 bg-white rounded-md'>
       <span className='text-black text-2xl font-bold mb-2'>Sample Text</span>
       <div className='flex items-center'>
         <img className='rounded-full h-8 w-8' src={fit} alt='Profile 1' />
         <img className='rounded-full h-8 w-8 -ml-2' src={fit} alt='Profile 2' />
         <span className='text-gray-500 ml-2'>+3 more</span>
+        <button className='bg-blue-500 text-white text-sm px-3 py-1 rounded-md ml-2'>Get your free trial</button>
       </div>
     </div>
   </div>
