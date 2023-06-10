@@ -62,7 +62,7 @@ export default function App() {
   <div className='relative'>
     <img className='items-center px-6 mt-10 rounded-md h-50' src={fit} alt='Fitness' />
     <div className='absolute bottom-4 left-10 p-2 bg-white rounded-md'>
-      <span className='text-black text-l left-1 font-bold mb-2'>Free Online Classes</span>
+      <span className='text-black text-l font-bold mb-2'>Free Online Classes</span>
       <div className='flex items-center'>
         <img className='rounded-full h-8 w-8' src={fit} alt='Profile 1' />
         <img className='rounded-full h-8 w-8 -ml-2' src={fit} alt='Profile 2' />
