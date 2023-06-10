@@ -63,6 +63,11 @@ export default function App() {
     <img className='items-center px-6 mt-10 rounded-md h-50' src={fit} alt='Fitness' />
     <div className='absolute left-8 bottom-2 flex items-center justify-center bg-white'>
       <span className='text-black text-l font-bold'>Free Online Courses</span>
+      <div className='flex items-center mt-2'>
+        <img className='rounded-full h-8 w-8' src={fit} alt='Profile 1' />
+        <img className='rounded-full h-8 w-8 -ml-2' src={fit} alt='Profile 2' />
+        <span className='text-gray-500 ml-2'>+3 more</span>
+      </div>
     </div>
   </div>
 </div>
