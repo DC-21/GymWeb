@@ -67,7 +67,7 @@ export default function App() {
         <img className='rounded-full h-8 w-8' src={fit} alt='Profile 1' />
         <img className='rounded-full h-8 w-8 -ml-2' src={fit} alt='Profile 2' />
         <span className='text-gray-500 ml-2'>+3 more</span>
-        <button className='font-bold text-sm px-3 py-1 rounded-md ml-2'style={{ color: '#ecc2ac', backgroundColor: '#ffeee5' }}>Get your free trial</button>
+        <button className='font-bold text-white text-sm px-3 py-1 rounded-md ml-2'style={{backgroundColor: '#ffeee5' }}>Get your free trial</button>
       </div>
     </div>
   </div>
