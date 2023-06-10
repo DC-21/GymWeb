@@ -59,8 +59,9 @@ export default function App() {
           </div>
         </div>
         <div className='w-1/2 items-center px-10 relative rounded-md'>
-          <img  className='items-center px-6  mt-10 rounded h-50' src={fit}/>
-        </div>
+  <img className='items-center px-6 mt-10 rounded h-50' src={fit} style={{ borderRadius: '50%' }} />
+</div>
+
       </div>
       <div>
             <ul className="flex justify-between text-white pt-20 py-20     px-16">
