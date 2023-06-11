@@ -108,17 +108,17 @@ export default function App() {
           Errytime they see me balling</p>
         </div>
         <div>
-          <ul className="flex">
-            <li>
+          <div className="flex">
+            <div>
             <img  className='items-center px-6  mt-10 rounded' src={fit}/>
-            </li>
-            <li>
+            </div>
+            <div>
             <img  className='items-center px-6  mt-10 rounded h-50' src={fit}/>
-            </li>
-            <li>
+            </div>
+            <div>
             <img  className='items-center px-6  mt-10 rounded h-50' src={fit}/>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
         <div className='text-white text-l text-left py-2 px-12 pt-20 flex gap-4 justify-center items-center'>
           <button className='text-white rounded py-3 px-20 j' style={{backgroundColor: '#111111'}}>
