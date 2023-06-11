@@ -12,7 +12,7 @@ export default function App() {
         <img className='w-10 h-10' src={logo}/>
       </div>
       <div>
-        <ul className='sm:flex-col flex gap-5 pt-3 cursor-pointer'>
+        <ul className='flex gap-5 pt-3 cursor-pointer'>
           <li className='text-white hover:bg-orange-700 rounded-md px-2 py-1'>
             <a>Home</a>
           </li>
@@ -108,7 +108,7 @@ export default function App() {
           Errytime they see me balling</p>
         </div>
         <div>
-          <div className="flex">
+          <div className="md:flex lg:flex sm:grid-cols-1 ">
             <div>
             <img  className='items-center px-6  mt-10 rounded' src={fit}/>
             </div>
