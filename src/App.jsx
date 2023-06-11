@@ -12,7 +12,7 @@ export default function App() {
         <img className='w-10 h-10' src={logo}/>
       </div>
       <div>
-        <ul className='flex gap-5 pt-3 cursor-pointer'>
+        <ul className='sm:flex-col flex gap-5 pt-3 cursor-pointer'>
           <li className='text-white hover:bg-orange-700 rounded-md px-2 py-1'>
             <a>Home</a>
           </li>
@@ -67,7 +67,7 @@ export default function App() {
         <img className='rounded-full h-8 w-8' src={fit} alt='Profile 1' />
         <img className='rounded-full h-8 w-8 -ml-2' src={fit} alt='Profile 2' />
         <span className='text-gray-500 ml-2'>+3 more</span>
-        <button className=' text-black text-sm px-3 py-1 rounded-md ml-2'style={{backgroundColor: '#ffeee5' }}>Get your free trial</button>
+        <button className=' font-bold text-sm px-3 py-1 rounded-md ml-2'style={{ color: '#26272e', backgroundColor: '#ffeee5' }}>Get your free trial</button>
       </div>
     </div>
   </div>
