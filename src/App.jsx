@@ -61,8 +61,8 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div className='md:w-1/2 w-full h-[40vh] bg-cover bg-center' style={{backgroundImage:`url(${fit})`}}>
-          <div className='items-center md:px-10 px-0'>  
+        <div className='md:w-1/2 w-full h-[40vh] bg-cover bg-center relative' style={{backgroundImage:`url(${fit})`}}>
+          <div className='items-center absolute inset-x-0 bottom-0 px-0'>  
             <div className='flex'>
               <div className='p-2 bg-white rounded-md'>
                 <span className='text-black text-l font-bold mb-2'>Free Online Classes</span>
@@ -103,10 +103,10 @@ export default function App() {
           </div>
     </section>
     <section className="h-screen w-full">
-      <div>
-        <div className="pt-20">
-          <h1 className="text-4xl font-bold">Your Fitness Classes</h1>
-          <p className="pt-4">I found this on the web trynna catch what i solved <br/>
+      <div className="justify-center">
+        <div className="pt-20 items-center justify-center">
+          <h1 className="text-4xl font-bold text-center">Your Fitness Classes</h1>
+          <p className="pt-4 text-center">I found this on the web trynna catch what i solved <br/>
           Errytime they see me balling</p>
         </div>
         <div>
