@@ -6,12 +6,12 @@ import './App.css'
 
 export default function App() {
   return (
-    <div> 
-      <div style={{ backgroundColor: '#0a0911' }} className="flex w-full py-4 justify-between p-5">
+    <div className='w-full'> 
+      <div style={{ backgroundColor: '#0a0911' }} className="flex w-full md:py-4 py-2 p-2 md:p-5 justify-between">
       <div className='text-white'>
         <img className='w-10 h-10' src={logo}/>
       </div>
-      <div>
+      <div className="md:flex hidden">
         <ul className='flex gap-5 pt-3 cursor-pointer'>
           <li className='text-white hover:bg-orange-700 rounded-md px-2 py-1'>
             <a>Home</a>
@@ -39,46 +39,48 @@ export default function App() {
         </button>
       </div>
     </div>
-    <section className='h-screen w-full pt-10' style={{ backgroundColor: '#0a0911' }}>
-      <div className='flex'>
-        <div className='w-1/2 items-center px-10 relative'>
-          <h1 className='text-white font-bold text-5xl text-left pt-20 justify-center px-12'>Transform Your<br/>
-          Fitness And Build<br/> Your Life</h1>
-          <div className='text-white text-l text-left pt-4 justify-center px-12'>
-            <p>
-              Lorem ipsum test tha txt before take a seat and remember to free all time coz you dove acquired what made ya work all life
-            </p>
-          </div>
-          <div className='text-white text-l text-left py-2 px-12 justify-between flex gap-4'>
-          <button className='text-white rounded py-2 px-12' style={{backgroundColor: '#f74700'}}>
-          <a href=''>Book Class</a>
-        </button>
-        <button className='text-right text-white rounded py-2 px-12' style={{backgroundColor: '#26272e'}}>
-          <a href=''>Free Online Class</a>
-        </button>
+    <section className='h-screen flex flex-col w-full pt-4' style={{ backgroundColor: '#0a0911' }}>
+      <div className='flex w-full md:flex-row flex-col'>
+        <div className='md:w-1/2 w-full items-center px-5'>
+          <div className='flex md:w-1/2 w-full flex-col'>
+            <h1 className='text-white font-bold md:text-5xl text-2xl text-left md:pt-20 pt-4 justify-center px-0'>Transform Your<br/>
+              Fitness And Build<br/> Your Life
+            </h1>
+            <div className='text-white text-l text-left pt-4 justify-center px-0'>
+              <p>
+                Lorem ipsum test tha txt before take a seat and remember to free all time coz you dove acquired what made ya work all life
+              </p>
+            </div>
+            <div className='text-white text-l w-full text-left py-2 justify-between flex gap-2 md:gap-4'>
+              <button className='text-white text-sm md:text-base rounded items-center w-fit' style={{backgroundColor: '#f74700'}}>
+                Book Class
+              </button>
+              <button className='text-center text-white text-sm md:text-base rounded' style={{backgroundColor: '#26272e'}}>
+                Free Online Class
+              </button>
+            </div>
           </div>
         </div>
-        <div className='w-1/2 items-center px-10 relative'>
-  <div className='relative'>
-    <img className='items-center px-6 mt-10 rounded-md h-50' src={fit} alt='Fitness' />
-    <div className='absolute bottom-4 left-10 p-2 bg-white rounded-md'>
-      <span className='text-black text-l font-bold mb-2'>Free Online Classes</span>
-      <div className='flex items-center'>
-        <img className='rounded-full h-8 w-8' src={fit} alt='Profile 1' />
-        <img className='rounded-full h-8 w-8 -ml-2' src={fit} alt='Profile 2' />
-        <span className='text-gray-500 ml-2'>+3 more</span>
-        <button className=' font-bold text-sm px-3 py-1 rounded-md ml-2'style={{ color: '#26272e', backgroundColor: '#ffeee5' }}>Get your free trial</button>
+        <div className='md:w-1/2 w-full h-[40vh] bg-cover bg-center' style={{backgroundImage:`url(${fit})`}}>
+          <div className='items-center md:px-10 px-0'>  
+            <div className='flex'>
+              <div className='p-2 bg-white rounded-md'>
+                <span className='text-black text-l font-bold mb-2'>Free Online Classes</span>
+                <div className='flex items-center'>
+                  <img className='rounded-full h-8 w-8' src={fit} alt='Profile 1' />
+                  <img className='rounded-full h-8 w-8 -ml-2' src={fit} alt='Profile 2' />
+                  <span className='text-gray-500 ml-2'>+3 more</span>
+                  <button className=' font-bold text-sm px-3 py-1 rounded-md ml-2'style={{ color: '#26272e', backgroundColor: '#ffeee5' }}>Get your free trial</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
 
 
-
-
-      </div>
       <div>
-            <ul className="flex justify-between text-white pt-20 py-20     px-16">
+            <ul className="flex justify-between text-white">
               <li>
                 <a href='' className='text-white rounded py-2 px-4' style={{backgroundColor: '#26272e'}}>mapbox</a>
               </li>
