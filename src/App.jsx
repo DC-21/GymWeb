@@ -111,14 +111,14 @@ export default function App() {
         </div>
         <div>
           <div className="md:flex lg:flex sm:grid-cols-1 ">
-            <div>
+            <div className="md:px-10 px-16">
             <img  className='items-center px-6  mt-10 rounded' src={fit}/>
             </div>
-            <div>
+            <div className="md:px-10 px-16">
             <img  className='items-center px-6  mt-10 rounded h-50' src={fit}/>
             </div>
-            <div>
-            <img  className='items-center px-6  mt-10 rounded h-50' src={fit}/>
+            <div className="md:px-10 px-16 rounded-md">
+            <img  className='items-center px-6  mt-10 h-50' src={fit}/>
             </div>
           </div>
         </div>
